@@ -229,6 +229,7 @@ font-weight: 600;
     height:auto;
     background-image: url(img/blurred-city-at-night-bokeh-beautiful-abstract-background-with-defocused-KM7J0A.jpg);
     background-repeat: no-repeat;
+    border-radius:10px;
     color: #D9DBE1;
     padding: 35px;
 }
@@ -251,11 +252,9 @@ font-weight: 600;
 /* footer start */
 footer{
     margin-top: 200px;
-width: 1440px;
-height: 177px;
-padding: 43px 605px 42px 653px;
-align-items: center;
-background-color: black;
+    padding: 40px;
+    text-align: center;
+    background-color: black;
 }
 footer h3{
     color: #EF233C;;
@@ -266,9 +265,8 @@ margin-bottom: 25px;
 margin-top: 45px;
 }
 footer p{
-    color: var(--Text-Gray-300, #D9DBE1);
+    color:white;
     font-size: 14px;
     font-weight: 400;
-    padding-left: 40px;
 }
 /* footer end */
