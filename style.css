@@ -68,7 +68,7 @@ body{
     font-size: 18px;
     font-weight: 400;
     line-height: 28px; 
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .donation-content a{
     font-size: 20px;
@@ -95,47 +95,59 @@ body{
 /* donation end */
 /* direct help start */
 .direct-help{
-    margin-top: 150px;
-}
-.head-part{
-    justify-content: center;
+    margin-top: 250px;
+    
 }
 .head-part h1{
-    color: #121212;
     text-align: center;
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 700;
-    margin-bottom: 20px;
 }
 .head-part p{
     color: #707070;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    line-height: 28px;
+    line-height: 28px; 
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    
 }
 .wrap{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+    
 }
 .single-item{
     display: flex;
-    flex-wrap:wrap;
+    width: 461px;
+    height: 225px;
+    border-radius: 10px;
+    background: #FEF4F5;
+    padding: 40px;
+    
 }
-.single-item h4{
-    color: #121212;
-font-size: 20px;
-font-weight: 700;
+.help-icon img{
+    margin-right: 30px;
+    margin-top: 20px;
+    
 }
-.single-item p{
-    color: #707070;
+.help-content h2{
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.help-content p{
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: 28px;
+    
 }
-.first{
-}
-.second{}
-.third{}
-.forth{}
 /* direct help end */
 /* forth img sec start */
 .image-sec{
@@ -178,7 +190,7 @@ font-weight: 700;
     height: 211px;
 }
 .each-item h4{
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 700;
     margin-bottom: 20px;
 }
@@ -202,17 +214,16 @@ font-weight: 600;
     margin-top: 200px;
     
 }
-.con-p{
-
+.contnt-part p{
+    font-size: 30px;
 }
-.f{
-    margin-top: 50px;
+.contnt-part h1{
+    font-size: 30px;
 }
-.s{
-    margin-top: 20px;
+.contnt-part2 p{
     margin-bottom: 20px;
+    padding-left: 30px;
 }
-.t{}
 .img-p{
     width: 30%;
     height:auto;
@@ -228,13 +239,14 @@ font-weight: 600;
 }
 .img-p p{
     margin-bottom:20px ;
-    font-size:18px ;
+    font-size:20px ;
     margin-bottom:10px ;
 }
 .img-p a{
     color: #D9DBE1;
+    font-size: 20px;
+    font-weight: 500;
 }
-
 /* upcoming events end */
 /* footer start */
 footer{
